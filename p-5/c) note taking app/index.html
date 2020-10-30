@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noteApp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <ul class="nav my-1 justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link mx-1" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link mx-1" href="#target_list">My Notes</a>
+        </li>
+    </ul>
+
+    <div class="container py-2 mt-3 col-sm-6 rounded bg-dark ">
+        <img class="float-left mt-1 mb-2" id="todo-photo" src="todoList-photo.jpg" alt="myTodoList-Photo">
+        <h3 class="ml-5" style="color: rgb(216, 208, 208);">Add <strong> myNote</strong></h3>
+        <form>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Title for note</span>
+                </div>
+                <input id='title' type="text" class="form-control" placeholder="" autocomplete="off">
+            </div>
+            <div class="input-group mb-3">
+                <textarea id="content" class="form-control" rows="8" placeholder="write note here !!"></textarea>
+            </div>
+        </form>
+
+        <button id="add" class="btn btn-info bg-warning " type="submit">Add</button>
+        <div id="done-msg" style="border: 3px green solid;opacity: 0;"
+            class="bg-light d-inline p-2 mx-2 rounded text-success border-success "> ✔ </div>
+
+    </div>
+    <hr>
+
+    <div id="target_list" class="container-fluid ">
+        <h1 class="mb-5" style="text-align: center;">myNotes</h1>
+        <div id="my-lists" class="row pl-1">
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <strong>
+            <p>©Praveen</p>
+        </strong>
+        <div class="social-links">
+            <a type="button" href="#" class="fa rounded" data-toggle="tooltip" data-placement="top"
+                title="facebook"><strong>f</strong></a>
+            <a href="#" class="fa rounded" data-toggle="tooltip" data-placement="top"
+                title="twitter"><strong>t</strong></a>
+            <a href="#" class="fa rounded " data-toggle="tooltip" data-placement="top"
+                title="Linkedin"><strong>in</strong></a>
+        </div>
+    </div>
+
+
+    <!-- my-script-->
+    <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

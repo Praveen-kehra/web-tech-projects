@@ -1,0 +1,81 @@
+
+body{
+    background-image: linear-gradient(rgb(29, 53, 6),rgb(152, 154, 179));
+    background-repeat: no-repeat;
+}
+
+#todo-photo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+textarea::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; 
+}
+  
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #4285F4; 
+}
+
+.nav-link{
+    font-size: 140%;
+    text-shadow: 0 0 2px #28ec0e;
+}
+
+hr {
+    border: dotted #499c9c 6px;
+    border-bottom: none;
+    width: 7%;
+    margin: 11vh auto;
+}
+.list-title{
+    text-align: center;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px 0;
+    background-image: linear-gradient(rgb(77, 130, 146),#062047) ;
+}
+
+.social-links{
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+}
+.social-links a{
+    text-decoration: none;
+    background: #363768;
+    color: white;
+    cursor: pointer;
+}
+.fa {
+    font-size: 17px;
+    width: 22px;
+    height: 24px;
+    text-align: center;
+    margin: 0 5px;
+}
+  
+.fa:hover {
+    opacity: 0.9;
+    color: #499c9c;
+} 
+
+
+
+/* fade in fade out msg */
+#done-msg{
+    transition: opacity 1 ease-out;
+    transition-delay: 1s;
+}
+#done-msg.fade{
+    opacity: 0;
+}

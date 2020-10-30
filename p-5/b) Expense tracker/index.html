@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Track Your Expense</h1>
+    <hr>
+    <form action="">
+        <input type="text" placeholder="Description" id="description" autocomplete="off">
+        <input type="number" placeholder="Amount (In $)" id="amount">
+        <input type="date" id="date">
+        
+        <div id="all-submit">
+            <div id="submit-tooltip">
+                Add
+            </div>
+            <img id="submit" src="tick.jpg" onMouseOver="show()" onMouseOut="hide()" alt="submit">
+        </div>
+       
+    </form>
+    <hr>
+    <h2>
+        <center>All Exprenses!</center>
+    </h2>
+    <div id="all-expenses">
+
+        <table id="myTable">
+            
+            <tr>
+                <th>Description</th>
+                <th>Date(y/m/d)</th>
+                <th>Amount (In $)</th>
+            </tr>
+            <!-- <tr>
+                <td>Jay</td>
+                <td>22/2/2020</td>
+                <td>$100</td>
+            </tr> -->
+            
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

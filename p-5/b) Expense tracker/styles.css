@@ -1,0 +1,81 @@
+
+body{
+    background: linear-gradient(to right ,#12c2e9, #c471ed, #f64f59);
+    text-align: center;
+}
+
+hr{
+    width: 85%;
+    background-color: rgb(92, 80, 80);
+    border: 1.3px solid  rgb(92, 80, 80);
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#submit{
+    width: 35px;
+    height: 35px;
+    margin-bottom: -7px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input{
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#date{
+    padding: 4px;
+    cursor: pointer;
+}
+
+#submit-tooltip{
+    margin-left: 8px;
+    position: absolute;
+    margin-top: -28px;
+    background-color: rgb(186, 187, 140);
+    padding: 2px;
+    border-radius: 3px;
+    visibility: hidden;
+    display: inline;
+}
+
+img#submit:hover {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: 0px 0px 3px 0px rgba(0, 39, 12, 0.67);
+}
+
+#all-expenses{
+    background-color: rgb(136, 136, 145);
+    border: 1px solid rgb(48, 48, 88);
+    border-radius: 4px;
+    padding: 4px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+#all-expenses table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+#all-submit{
+    position: relative;
+    display: inline;
+}
+
+#all-expenses table th{
+    color: rgb(8, 8, 8);
+    font-family: 'Grandstander', cursive;
+    font-size: 17px;
+}
+
+

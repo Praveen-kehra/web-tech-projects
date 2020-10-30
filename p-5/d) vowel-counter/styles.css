@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+
+    /* background-image: linear-gradient(rgb(151, 75, 75),rgb(201, 169, 169)); */
+}
+h1{
+    font-family: 'Chilanka', cursive;
+    color: rgb(57, 133, 143);
+    text-align: center;
+    background-color: rgb(241, 246, 247);
+    padding: 5px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.form-text{
+    background-color: aqua;
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+textarea{
+    padding: 5px;
+    border-radius: 5px;
+    line-height: 12px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
