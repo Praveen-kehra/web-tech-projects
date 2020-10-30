@@ -1,0 +1,67 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Grandstander', cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 228, 211);
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: blue;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.slip{
+    border: 2px solid rgb(88, 86, 86);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+table {
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1.3px solid gray;
+}
+
+button{
+    background-color: rgb(48, 117, 48);
+    border: 1px solid green;
+    border-radius: 3px;
+    color: aquamarine;
+    font-size: medium;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    border: 1px solid rgb(105, 103, 103);
+    background-color: rgb(100, 98, 98);
+    width: 50%;
+    margin: 3px;
+    border-radius: 1px;
+}
+
+

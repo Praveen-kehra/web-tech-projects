@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Grandstander', cursive;
+    margin: 3px;
+}
+
+h2{
+    margin: 4px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 243, 229);
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 3px;
+    padding: 3px;
+    background-color: blue;
+    font-size: x-large;
+    color: aliceblue;
+    margin-top: 4px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(240, 232, 232);
+}
+
+#forget-password{
+    all: unset;
+    cursor: pointer;
+    color: red;
+}
+
+#sign-in-submit-btn{
+    float: right;
+}
+
+#condition{
+    all: unset;
+    cursor: pointer;
+    color: blue;
+    float: left;
+    display: inline;
+}
+
+#y-customer, #n-customer{
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid rgb(105, 103, 103);
+    background-color: rgb(100, 98, 98);
+    width: 40%;
+    margin: 3px;
+    border-radius: 1px;
+}

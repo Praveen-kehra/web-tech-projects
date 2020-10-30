@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 4px;
+    font-family: 'Grandstander', cursive;
+}
+hr{
+    border: 1px solid rgb(105, 103, 103);
+    background-color: rgb(100, 98, 98);
+    width: 45%;
+    margin: 3px;
+    border-radius: 1px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 243, 229);
+    /* background-image: linear-gradient( red, white);
+    background-repeat: no-repeat;  */
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: blue;
+    font-size: x-large;
+    color: aliceblue;
+    margin-top: 4px;
+}
+
+li{
+    list-style: none;
+}
+
+#add-card{
+    float: right;
+    border-radius: 3px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.details{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 12px;
+}

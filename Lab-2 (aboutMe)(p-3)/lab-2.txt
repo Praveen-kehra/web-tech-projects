@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen</title>
+    <style>
+        .in{display: inline;}
+        body{
+            background-color:#f6f6f6;
+            font-family: 'Merriweather', serif;
+            margin-left: 30px;
+        }
+        hr {
+            border: dotted #66BFBF 6px;
+            border-bottom: none;
+            width: 7%;
+            margin: 50px auto;
+        }
+
+        h2 {
+            color: #66BFBF;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.0rem;
+            font-weight: normal;
+            padding-bottom: 5px;
+        }
+
+        a{
+            color: #11999E;
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px 20px;
+            text-decoration: none;
+        }
+        .tree-img{
+            width: 25%;
+            margin-right: 30px;
+            border-radius: 40%;
+        }
+        .photo-img{
+            width: 25%;
+            margin-right: 30px;
+            border-radius: 50%;
+        }
+        
+        p {
+            line-height: 2;
+            background-color:#d6e0f0;
+        }
+    </style>
+</head>
+<body>
+    <h2>About Praveen</h2>
+    <p>My name is Praveen Kumar and Iam second year year computer science student at NSUT.</p>
+
+    <hr>
+    <h2>My class This Quarter</h2>
+    <ul>
+        <li>
+            CSE 451 - operating System.
+        </li>
+        <li>
+            CSE 452 - Compueter graphics.
+        </li>
+        <li>
+            CSE 452 - English.
+        </li>
+        <li>
+            CSE 451 - Datavbase management system.
+        </li>
+    </ul>  
+    
+    <h2>My favorite Movies</h2>
+    <ol>
+        <li>
+            Forest Gump. <a href="IMDB.com">IMDB</a>
+        </li>
+        <li>
+            Fight club. <a href="IMDB.com">IMDB</a>
+        </li>
+
+    </ol>
+    
+    <h2>My Moods</h2>
+    <div class="mood">
+        <div class="in">
+            <p>Happy</p>
+            <img class="tree-img" src="tree.jpg" alt="tree">
+        </div>
+        
+        <div class="in">
+            <p>Photo lover</p>
+            <img class="photo-img" src="photography.jpg" alt="photography">
+        </div>
+    </div>
+    
+    <hr>
+    <h2>My neighbours</h2>
+    <ul>
+        <li><p>Rohan : My friend.</p></li>
+        <li><p>Sam :uncle.</p></li>
+        <li><p>Meena :Aunt.</p></li>
+    </ul>
+
+</body>
+</html>
