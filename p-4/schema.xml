@@ -1,0 +1,40 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="books" type="booksType"/>
+  <xs:complexType name="titleType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="authorType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="first"/>
+      <xs:element type="xs:string" name="middle"/>
+      <xs:element type="xs:string" name="last"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="publishedDateType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="month"/>
+      <xs:element type="xs:byte" name="day"/>
+      <xs:element type="xs:short" name="year"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element type="titleType" name="title"/>
+      <xs:element type="xs:byte" name="edition" minOccurs="0"/>
+      <xs:element type="authorType" name="author" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="publishedDateType" name="publishedDate"/>
+      <xs:element type="xs:string" name="type"/>
+      <xs:element type="xs:float" name="price"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="isbn" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="booksType">
+    <xs:sequence>
+      <xs:element type="bookType" name="book" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
